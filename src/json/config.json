@@ -1,0 +1,39 @@
+{
+  "definition": {
+    "type": "items",
+    "component": "accordion",
+    "items": {
+        "dimensions": {
+            "uses": "dimensions",
+            "min": 2,
+            "max": 2
+        },
+        "measures": {
+            "uses": "measures",
+            "min": 2,
+            "max": 2
+        },
+        "sorting": {
+            "uses": "sorting"
+        },
+        "settings": {
+            "uses": "settings"
+        }
+    }
+},
+  "initialProperties": {
+    "qHyperCubeDef": {
+        "qDimensions": [],
+        "qMeasures": [],
+        "qInitialDataFetch": [{
+            "qWidth": 4,
+            "qHeight": 1000
+        }]
+    }
+},
+  "support": {
+    "snapshot": true,
+    "export": true,
+    "exportData": false
+  }
+}

@@ -1,0 +1,3804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Qlik</title>
+</head>
+<body>
+  <div id="container"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.2/require.min.js"></script>
+  <script>
+    requirejs.config({
+      paths: {
+        angular: 'https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min',
+        bootstrap: 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min',
+        jquery: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min'
+      },
+      shim: {
+        angular: {
+          exports: 'angular'
+        }
+      }
+    })
+
+    require([
+      'jquery',
+      'angular',
+      './script.js'
+    ], ($, angular, app) => {
+      const $element = $('#container')
+      const layout = {
+  "qInfo": {
+    "qId": "amDkH",
+    "qType": "dataLoad"
+  },
+  "qMeta": {
+    "privileges": [
+      "read",
+      "update",
+      "delete",
+      "exportdata"
+    ]
+  },
+  "qSelectionInfo": {},
+  "qHyperCube": {
+    "qSize": {
+      "qcx": 4,
+      "qcy": 130
+    },
+    "qDimensionInfo": [
+      {
+        "qFallbackTitle": "Development Group",
+        "qApprMaxGlyphCount": 9,
+        "qCardinal": 4,
+        "qSortIndicator": "A",
+        "qGroupFallbackTitles": [
+          "Development Group"
+        ],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 4,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [
+          "$ascii",
+          "$text"
+        ],
+        "qDimensionType": "D",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 0,
+          "qUseThou": 0
+        },
+        "qIsAutoFormat": true,
+        "qGroupFieldDefs": [
+          "Development Group"
+        ],
+        "qMin": "NaN",
+        "qMax": "NaN",
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 4,
+          "qHypercubeCardinal": 4,
+          "qAllValuesCardinal": -1
+        },
+        "autoSort": true,
+        "cId": "wECtB",
+        "othersLabel": "Others"
+      },
+      {
+        "qFallbackTitle": "Life expectancy at age 60",
+        "qApprMaxGlyphCount": 4,
+        "qCardinal": 87,
+        "qSortIndicator": "A",
+        "qGroupFallbackTitles": [
+          "Life expectancy at age 60"
+        ],
+        "qGroupPos": 0,
+        "qStateCounts": {
+          "qLocked": 0,
+          "qSelected": 0,
+          "qOption": 87,
+          "qDeselected": 0,
+          "qAlternative": 0,
+          "qExcluded": 0,
+          "qSelectedExcluded": 0,
+          "qLockedExcluded": 0
+        },
+        "qTags": [
+          "$numeric"
+        ],
+        "qDimensionType": "N",
+        "qGrouping": "N",
+        "qNumFormat": {
+          "qType": "U",
+          "qnDec": 0,
+          "qUseThou": 0
+        },
+        "qIsAutoFormat": true,
+        "qGroupFieldDefs": [
+          "Life expectancy at age 60"
+        ],
+        "qMin": 12.5,
+        "qMax": 26.1,
+        "qContinuousAxes": true,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "qCardinalities": {
+          "qCardinal": 87,
+          "qHypercubeCardinal": 87,
+          "qAllValuesCardinal": -1
+        },
+        "autoSort": true,
+        "cId": "EFCuCpt",
+        "othersLabel": "Others"
+      }
+    ],
+    "qMeasureInfo": [
+      {
+        "qFallbackTitle": "Avg(Country)",
+        "qApprMaxGlyphCount": 1,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "R",
+          "qnDec": 0,
+          "qUseThou": 0,
+          "qFmt": "########",
+          "qDec": ".",
+          "qThou": ","
+        },
+        "qMin": "NaN",
+        "qMax": "NaN",
+        "qIsAutoFormat": true,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "autoSort": true,
+        "cId": "mnZSRJ",
+        "numFormatFromTemplate": true
+      },
+      {
+        "qFallbackTitle": "Avg([Obesity %])",
+        "qApprMaxGlyphCount": 4,
+        "qCardinal": 0,
+        "qSortIndicator": "D",
+        "qNumFormat": {
+          "qType": "R",
+          "qnDec": 0,
+          "qUseThou": 0,
+          "qFmt": "########",
+          "qDec": ".",
+          "qThou": ","
+        },
+        "qMin": 1.1,
+        "qMax": 59.6,
+        "qIsAutoFormat": true,
+        "qAttrExprInfo": [],
+        "qAttrDimInfo": [],
+        "autoSort": true,
+        "cId": "nzfgGu",
+        "numFormatFromTemplate": true
+      }
+    ],
+    "qEffectiveInterColumnSortOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "qGrandTotalRow": [
+      {
+        "qText": "-",
+        "qNum": "NaN",
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      },
+      {
+        "qText": "18.026111",
+        "qNum": 18.026111111111113,
+        "qElemNumber": -1,
+        "qState": "X",
+        "qIsTotalCell": true
+      }
+    ],
+    "qDataPages": [
+      {
+        "qMatrix": [
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "16.5",
+              "qNum": 16.5,
+              "qElemNumber": 45,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.4",
+              "qNum": 24.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "17",
+              "qNum": 17,
+              "qElemNumber": 52,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "31.9",
+              "qNum": 31.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "17.1",
+              "qNum": 17.1,
+              "qElemNumber": 33,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.4",
+              "qNum": 23.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "17.4",
+              "qNum": 17.4,
+              "qElemNumber": 50,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "20.1",
+              "qNum": 20.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "17.5",
+              "qNum": 17.5,
+              "qElemNumber": 37,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.9",
+              "qNum": 24.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "17.8",
+              "qNum": 17.8,
+              "qElemNumber": 42,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "30",
+              "qNum": 30,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "17.9",
+              "qNum": 17.9,
+              "qElemNumber": 53,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "17.5",
+              "qNum": 17.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "18.3",
+              "qNum": 18.3,
+              "qElemNumber": 47,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.7",
+              "qNum": 24.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "18.5",
+              "qNum": 18.5,
+              "qElemNumber": 49,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.9",
+              "qNum": 24.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "18.6",
+              "qNum": 18.6,
+              "qElemNumber": 56,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "59.6",
+              "qNum": 59.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "18.7",
+              "qNum": 18.7,
+              "qElemNumber": 48,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23",
+              "qNum": 23,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "18.8",
+              "qNum": 18.8,
+              "qElemNumber": 38,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.4",
+              "qNum": 21.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19",
+              "qNum": 19,
+              "qElemNumber": 40,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.2",
+              "qNum": 24.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.1",
+              "qNum": 19.1,
+              "qElemNumber": 24,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "20.3",
+              "qNum": 20.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.2",
+              "qNum": 19.2,
+              "qElemNumber": 23,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.8",
+              "qNum": 21.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.3",
+              "qNum": 19.3,
+              "qElemNumber": 41,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "18.2",
+              "qNum": 18.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.4",
+              "qNum": 19.4,
+              "qElemNumber": 34,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.15",
+              "qNum": 21.15,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.5",
+              "qNum": 19.5,
+              "qElemNumber": 28,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "19.5",
+              "qNum": 19.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.6",
+              "qNum": 19.6,
+              "qElemNumber": 46,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "5",
+              "qNum": 5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.7",
+              "qNum": 19.7,
+              "qElemNumber": 35,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "27.95",
+              "qNum": 27.950000000000003,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.8",
+              "qNum": 19.8,
+              "qElemNumber": 25,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.2",
+              "qNum": 21.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "19.9",
+              "qNum": 19.9,
+              "qElemNumber": 27,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.6",
+              "qNum": 21.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "20",
+              "qNum": 20,
+              "qElemNumber": 51,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.4",
+              "qNum": 23.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "20.2",
+              "qNum": 20.2,
+              "qElemNumber": 22,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24",
+              "qNum": 24,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "20.5",
+              "qNum": 20.5,
+              "qElemNumber": 36,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "22",
+              "qNum": 22,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "20.9",
+              "qNum": 20.9,
+              "qElemNumber": 44,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "29.3",
+              "qNum": 29.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21",
+              "qNum": 21,
+              "qElemNumber": 55,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "22.3",
+              "qNum": 22.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21.1",
+              "qNum": 21.1,
+              "qElemNumber": 18,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "25.95",
+              "qNum": 25.950000000000003,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21.3",
+              "qNum": 21.3,
+              "qElemNumber": 54,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.35",
+              "qNum": 21.35,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21.4",
+              "qNum": 21.4,
+              "qElemNumber": 19,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "8.5",
+              "qNum": 8.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21.5",
+              "qNum": 21.5,
+              "qElemNumber": 39,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "25.733333",
+              "qNum": 25.73333333333333,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21.8",
+              "qNum": 21.8,
+              "qElemNumber": 32,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.55",
+              "qNum": 21.55,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "21.9",
+              "qNum": 21.9,
+              "qElemNumber": 57,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.9",
+              "qNum": 21.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "22.3",
+              "qNum": 22.3,
+              "qElemNumber": 26,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "35",
+              "qNum": 35,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "22.7",
+              "qNum": 22.7,
+              "qElemNumber": 43,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "30.5",
+              "qNum": 30.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "23.6",
+              "qNum": 23.6,
+              "qElemNumber": 13,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "22",
+              "qNum": 22,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "23.8",
+              "qNum": 23.8,
+              "qElemNumber": 14,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.6",
+              "qNum": 24.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "High",
+              "qNum": "NaN",
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "23.9",
+              "qNum": 23.9,
+              "qElemNumber": 12,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "25.8",
+              "qNum": 25.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "12.5",
+              "qNum": 12.5,
+              "qElemNumber": 86,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "7",
+              "qNum": 7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "13.7",
+              "qNum": 13.7,
+              "qElemNumber": 76,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "7.1",
+              "qNum": 7.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "13.9",
+              "qNum": 13.9,
+              "qElemNumber": 81,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "6.7",
+              "qNum": 6.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "14.5",
+              "qNum": 14.5,
+              "qElemNumber": 79,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.6",
+              "qNum": 4.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "14.8",
+              "qNum": 14.8,
+              "qElemNumber": 84,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.7",
+              "qNum": 4.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "14.9",
+              "qNum": 14.9,
+              "qElemNumber": 77,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "10.65",
+              "qNum": 10.65,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.1",
+              "qNum": 15.1,
+              "qElemNumber": 85,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "2.1",
+              "qNum": 2.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.2",
+              "qNum": 15.2,
+              "qElemNumber": 82,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "5.2",
+              "qNum": 5.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.4",
+              "qNum": 15.4,
+              "qElemNumber": 83,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "5.15",
+              "qNum": 5.15,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.5",
+              "qNum": 15.5,
+              "qElemNumber": 72,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "9.7",
+              "qNum": 9.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.6",
+              "qNum": 15.6,
+              "qElemNumber": 78,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.8",
+              "qNum": 4.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.7",
+              "qNum": 15.7,
+              "qElemNumber": 75,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "7.2",
+              "qNum": 7.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "15.9",
+              "qNum": 15.9,
+              "qElemNumber": 74,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "3.5",
+              "qNum": 3.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16",
+              "qNum": 16,
+              "qElemNumber": 64,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "3.3",
+              "qNum": 3.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16.2",
+              "qNum": 16.2,
+              "qElemNumber": 63,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "12.35",
+              "qNum": 12.35,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16.3",
+              "qNum": 16.3,
+              "qElemNumber": 58,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.4",
+              "qNum": 23.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16.4",
+              "qNum": 16.4,
+              "qElemNumber": 60,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "12.55",
+              "qNum": 12.55,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16.6",
+              "qNum": 16.6,
+              "qElemNumber": 65,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.1",
+              "qNum": 4.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16.8",
+              "qNum": 16.8,
+              "qElemNumber": 67,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "5.4",
+              "qNum": 5.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "16.9",
+              "qNum": 16.9,
+              "qElemNumber": 68,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "16.9",
+              "qNum": 16.900000000000002,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17",
+              "qNum": 17,
+              "qElemNumber": 52,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.5",
+              "qNum": 4.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17.1",
+              "qNum": 17.1,
+              "qElemNumber": 33,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "1.5",
+              "qNum": 1.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17.2",
+              "qNum": 17.2,
+              "qElemNumber": 80,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "8.4",
+              "qNum": 8.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17.4",
+              "qNum": 17.4,
+              "qElemNumber": 50,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "6.25",
+              "qNum": 6.25,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17.5",
+              "qNum": 17.5,
+              "qElemNumber": 37,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "7.5",
+              "qNum": 7.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17.8",
+              "qNum": 17.8,
+              "qElemNumber": 42,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "3.4",
+              "qNum": 3.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "17.9",
+              "qNum": 17.9,
+              "qElemNumber": 53,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "5.4",
+              "qNum": 5.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Low",
+              "qNum": "NaN",
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "18.8",
+              "qNum": 18.8,
+              "qElemNumber": 38,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "8.6",
+              "qNum": 8.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "15.5",
+              "qNum": 15.5,
+              "qElemNumber": 72,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "8",
+              "qNum": 8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "15.9",
+              "qNum": 15.9,
+              "qElemNumber": 74,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "11.5",
+              "qNum": 11.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16",
+              "qNum": 16,
+              "qElemNumber": 64,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "33.5",
+              "qNum": 33.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16.2",
+              "qNum": 16.2,
+              "qElemNumber": 63,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "20.4",
+              "qNum": 20.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16.3",
+              "qNum": 16.3,
+              "qElemNumber": 58,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "16.4",
+              "qNum": 16.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16.4",
+              "qNum": 16.4,
+              "qElemNumber": 60,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "13.5",
+              "qNum": 13.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16.6",
+              "qNum": 16.6,
+              "qElemNumber": 65,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "16.9",
+              "qNum": 16.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16.8",
+              "qNum": 16.8,
+              "qElemNumber": 67,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "17.2",
+              "qNum": 17.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "16.9",
+              "qNum": 16.9,
+              "qElemNumber": 68,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "2.9",
+              "qNum": 2.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17",
+              "qNum": 17,
+              "qElemNumber": 52,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "6.7",
+              "qNum": 6.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17.1",
+              "qNum": 17.1,
+              "qElemNumber": 33,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.15",
+              "qNum": 4.15,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17.3",
+              "qNum": 17.3,
+              "qElemNumber": 66,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "26.45",
+              "qNum": 26.45,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17.4",
+              "qNum": 17.4,
+              "qElemNumber": 50,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "45.8",
+              "qNum": 45.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17.5",
+              "qNum": 17.5,
+              "qElemNumber": 37,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "32",
+              "qNum": 32,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17.8",
+              "qNum": 17.8,
+              "qElemNumber": 42,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.7",
+              "qNum": 4.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "17.9",
+              "qNum": 17.9,
+              "qElemNumber": 53,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "17.3",
+              "qNum": 17.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "18",
+              "qNum": 18,
+              "qElemNumber": 70,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "29.8",
+              "qNum": 29.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "18.2",
+              "qNum": 18.2,
+              "qElemNumber": 62,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "12.066667",
+              "qNum": 12.066666666666668,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "18.3",
+              "qNum": 18.3,
+              "qElemNumber": 47,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "17.3",
+              "qNum": 17.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "18.4",
+              "qNum": 18.4,
+              "qElemNumber": 73,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "1.1",
+              "qNum": 1.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "18.6",
+              "qNum": 18.6,
+              "qElemNumber": 56,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "18.9",
+              "qNum": 18.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "18.9",
+              "qNum": 18.9,
+              "qElemNumber": 59,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "55.5",
+              "qNum": 55.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "19.5",
+              "qNum": 19.5,
+              "qElemNumber": 28,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "5.5",
+              "qNum": 5.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "19.9",
+              "qNum": 19.9,
+              "qElemNumber": 27,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.55",
+              "qNum": 21.55,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "20.8",
+              "qNum": 20.8,
+              "qElemNumber": 61,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "19.2",
+              "qNum": 19.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "21",
+              "qNum": 21,
+              "qElemNumber": 55,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "16.1",
+              "qNum": 16.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "21.5",
+              "qNum": 21.5,
+              "qElemNumber": 39,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "20.7",
+              "qNum": 20.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "22",
+              "qNum": 22,
+              "qElemNumber": 21,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "26.9",
+              "qNum": 26.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "22.1",
+              "qNum": 22.1,
+              "qElemNumber": 69,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "19.8",
+              "qNum": 19.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "22.2",
+              "qNum": 22.2,
+              "qElemNumber": 71,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.2",
+              "qNum": 24.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "22.4",
+              "qNum": 22.4,
+              "qElemNumber": 8,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "1.6",
+              "qNum": 1.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Medium",
+              "qNum": "NaN",
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "23.8",
+              "qNum": 23.8,
+              "qElemNumber": 14,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "2.3",
+              "qNum": 2.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "17.6",
+              "qNum": 17.6,
+              "qElemNumber": 30,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "42.8",
+              "qNum": 42.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "19.1",
+              "qNum": 19.1,
+              "qElemNumber": 24,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.35",
+              "qNum": 23.35,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "19.2",
+              "qNum": 19.2,
+              "qElemNumber": 23,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "35.2",
+              "qNum": 35.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "19.5",
+              "qNum": 19.5,
+              "qElemNumber": 28,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "32.6",
+              "qNum": 32.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "19.8",
+              "qNum": 19.8,
+              "qElemNumber": 25,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "29.15",
+              "qNum": 29.150000000000002,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "19.9",
+              "qNum": 19.9,
+              "qElemNumber": 27,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.8",
+              "qNum": 24.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "20.2",
+              "qNum": 20.2,
+              "qElemNumber": 22,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "18.9",
+              "qNum": 18.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "20.6",
+              "qNum": 20.6,
+              "qElemNumber": 31,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.3",
+              "qNum": 21.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "21.1",
+              "qNum": 21.1,
+              "qElemNumber": 18,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "25.95",
+              "qNum": 25.95,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "21.2",
+              "qNum": 21.2,
+              "qElemNumber": 20,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "33.1",
+              "qNum": 33.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "21.4",
+              "qNum": 21.4,
+              "qElemNumber": 19,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "18.65",
+              "qNum": 18.65,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "22",
+              "qNum": 22,
+              "qElemNumber": 21,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.4",
+              "qNum": 23.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "22.3",
+              "qNum": 22.3,
+              "qElemNumber": 26,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "26.6",
+              "qNum": 26.6,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "22.4",
+              "qNum": 22.4,
+              "qElemNumber": 8,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "16.2",
+              "qNum": 16.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "22.8",
+              "qNum": 22.8,
+              "qElemNumber": 15,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "27",
+              "qNum": 27,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "22.9",
+              "qNum": 22.9,
+              "qElemNumber": 29,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "20.5",
+              "qNum": 20.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "23.2",
+              "qNum": 23.2,
+              "qElemNumber": 4,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "26.7",
+              "qNum": 26.700000000000003,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "23.4",
+              "qNum": 23.4,
+              "qElemNumber": 9,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.95",
+              "qNum": 23.95,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "23.5",
+              "qNum": 23.5,
+              "qElemNumber": 3,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "19.975",
+              "qNum": 19.975,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "23.6",
+              "qNum": 23.6,
+              "qElemNumber": 13,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.1",
+              "qNum": 24.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "23.8",
+              "qNum": 23.8,
+              "qElemNumber": 14,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "19.9",
+              "qNum": 19.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "23.9",
+              "qNum": 23.9,
+              "qElemNumber": 12,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "18.3",
+              "qNum": 18.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24",
+              "qNum": 24,
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "13.55",
+              "qNum": 13.55,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24.1",
+              "qNum": 24.1,
+              "qElemNumber": 5,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "21.8",
+              "qNum": 21.8,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24.3",
+              "qNum": 24.3,
+              "qElemNumber": 10,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "23.7",
+              "qNum": 23.7,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24.4",
+              "qNum": 24.4,
+              "qElemNumber": 6,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.3",
+              "qNum": 24.3,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24.5",
+              "qNum": 24.5,
+              "qElemNumber": 7,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "6.4",
+              "qNum": 6.4,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24.7",
+              "qNum": 24.7,
+              "qElemNumber": 16,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "17.2",
+              "qNum": 17.2,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "24.8",
+              "qNum": 24.8,
+              "qElemNumber": 17,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "24.1",
+              "qNum": 24.1,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "25",
+              "qNum": 25,
+              "qElemNumber": 2,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "14.9",
+              "qNum": 14.9,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "25.1",
+              "qNum": 25.1,
+              "qElemNumber": 1,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "20.35",
+              "qNum": 20.35,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ],
+          [
+            {
+              "qText": "Very High",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "O"
+            },
+            {
+              "qText": "26.1",
+              "qNum": 26.1,
+              "qElemNumber": 11,
+              "qState": "O"
+            },
+            {
+              "qText": "-",
+              "qNum": "NaN",
+              "qElemNumber": 0,
+              "qState": "L",
+              "qIsNull": true
+            },
+            {
+              "qText": "4.5",
+              "qNum": 4.5,
+              "qElemNumber": 0,
+              "qState": "L"
+            }
+          ]
+        ],
+        "qTails": [
+          {
+            "qUp": 0,
+            "qDown": 0
+          },
+          {
+            "qUp": 0,
+            "qDown": 0
+          }
+        ],
+        "qArea": {
+          "qLeft": 0,
+          "qTop": 0,
+          "qWidth": 4,
+          "qHeight": 130
+        }
+      }
+    ],
+    "qPivotDataPages": [],
+    "qStackedDataPages": [],
+    "qMode": "S",
+    "qNoOfLeftDims": -1,
+    "qTreeNodesOnDim": [],
+    "qColumnOrder": []
+  },
+  "showTitles": true,
+  "title": "",
+  "subtitle": "",
+  "footnote": "",
+  "showDetails": false,
+  "visualization": "dataLoad",
+  "version": "1.0.0",
+  "extensionMeta": {
+    "translationKey": "",
+    "icon": "puzzle",
+    "iconChar": "puzzle",
+    "isLibraryItem": true,
+    "visible": true,
+    "name": "dataLoad",
+    "description": "Basic empty visualization template",
+    "template": "dataLoad",
+    "iconPath": "M14.5,9 L13,9 L13,3.3 C13,3.1 12.9,3 12.7,3 L8,3 L8,1.5 C8,0.7 7.3,0 6.5,0 C5.7,0 5,0.7 5,1.5 L5,3 L0.3,3 C0.1,3 0,3.1 0,3.3 L0,9 L1.5,9 C2.3,9 3,9.7 3,10.5 C3,11.3 2.3,12 1.5,12 L0,12 L0,15.7 C0,15.9 0.1,16 0.3,16 L5,16 L5,14.5 C5,13.7 5.7,13 6.5,13 C7.3,13 8,13.7 8,14.5 L8,16 L12.7,16 C12.9,16 13,15.9 13,15.7 L13,12 L14.5,12 C15.3,12 16,11.3 16,10.5 C16,9.7 15.3,9 14.5,9 Z",
+    "isThirdParty": true,
+    "type": "visualization",
+    "version": "1.0.0",
+    "author": "",
+    "homepage": "",
+    "keywords": "qlik-sense, visualization",
+    "license": "",
+    "repository": "",
+    "dependencies": {
+      "qlik-sense": ">=3.0.x"
+    }
+  }
+}
+
+      if (app.paint) {
+        app.paint.call(window, $element, layout)
+      }
+
+      if (app.controller && app.template) {
+        const moduleName = 'qliksense-extension'
+
+        $element.html(app.template)
+
+        angular
+          .module(moduleName, [])
+          .directive('qvExtension', () => ({
+            controller: app.controller
+          }))
+
+        angular.bootstrap($element, [moduleName])
+      }
+    })
+  </script>
+</body>
+</html>
