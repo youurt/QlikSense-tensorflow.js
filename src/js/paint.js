@@ -24,27 +24,24 @@ export const paint = ($element, layout) => {
 
 
 
-    //console.log(trainSet);
-    //console.log(testSet);
-
-
 
 
 
     const trainingData = tf.tensor2d(trainSet.map(item => [
-      item[0].qText, item[2].qText, item[3].qText,
+      item[2].qNum, item[3].qNum,
     ]));
-    console.log("trainingData: " + trainingData);
-    //console.log(myLoad);
-    /*const every_nth = (arr, nth) => arr.filter((e, i) => i % nth === nth - 1);
-    console.log(every_nth(myLoad, 1));*/
+    console.log(trainingData);
+    trainingData.print();
+
 
 
     const outputData = tf.tensor2d(trainSet.map(item => [
-      item[1].qText === 'high' ? 1 : 0,
       item[1].qText === 'low' ? 1 : 0,
+      item[1].qText === 'high' ? 1 : 0,
+      item[1].qText === "medium" ? 1 : 0,
     ]));
-    console.log("outputData: " + outputData);
+    console.log(outputData);
+    outputData.print();
     /*
     // convert/setup data
     const trainingData = tf.tensor2d(iris.map(item => [
@@ -57,19 +54,20 @@ export const paint = ($element, layout) => {
       item.species === 'versicolor' ? 1 : 0,
     ]));*/
     const testingData = tf.tensor2d(testSet.map(item => [
-      item[0].qText, item[2].qText, item[3].qText,
+      item[2].qNum, item[3].qNum,
     ]));
-    console.log("testingData: " + testingData);
+    console.log(testingData);
+    testingData.print();
     // build neural network
     const model = tf.sequential();
 
     model.add(tf.layers.dense({
-      inputShape: [4],
+      inputShape: [2],
       activation: "sigmoid",
-      units: 5,
+      units: 3,
     }));
     model.add(tf.layers.dense({
-      inputShape: [5],
+      inputShape: [3],
       activation: "sigmoid",
       units: 3,
     }));
@@ -81,7 +79,8 @@ export const paint = ($element, layout) => {
       loss: "meanSquaredError",
       optimizer: tf.train.adam(.06),
     });
-
+    console.log(model);
+    
     // train/fit network
     const startTime = Date.now();
     model.fit(trainingData, outputData, { epochs: 100 })
@@ -93,7 +92,7 @@ export const paint = ($element, layout) => {
         console.log((endTime - startTime) / 1000);
         $element.html("tensorflow result: " + result.toString()).append("<div>Test</div>");
       })
-
+      
   }
 
   painted = true

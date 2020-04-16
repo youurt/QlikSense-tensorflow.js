@@ -77029,22 +77029,17 @@ define(["jquery"], function(__WEBPACK_EXTERNAL_MODULE_426__) { return /******/ (
 	      return [item[0].qText, item[1].qText, item[2].qText, item[3].qText];
 	    });
 	
-	    //console.log(trainSet);
-	    //console.log(testSet);
-	
-	
 	    var trainingData = tf.tensor2d(trainSet.map(function (item) {
-	      return [item[0].qText, item[2].qText, item[3].qText];
+	      return [item[2].qNum, item[3].qNum];
 	    }));
-	    console.log("trainingData: " + trainingData);
-	    //console.log(myLoad);
-	    /*const every_nth = (arr, nth) => arr.filter((e, i) => i % nth === nth - 1);
-	    console.log(every_nth(myLoad, 1));*/
+	    console.log(trainingData);
+	    trainingData.print();
 	
 	    var outputData = tf.tensor2d(trainSet.map(function (item) {
-	      return [item[1].qText === 'high' ? 1 : 0, item[1].qText === 'low' ? 1 : 0];
+	      return [item[1].qText === 'low' ? 1 : 0, item[1].qText === 'high' ? 1 : 0, item[1].qText === "medium" ? 1 : 0];
 	    }));
-	    console.log("outputData: " + outputData);
+	    console.log(outputData);
+	    outputData.print();
 	    /*
 	    // convert/setup data
 	    const trainingData = tf.tensor2d(iris.map(item => [
@@ -77057,19 +77052,20 @@ define(["jquery"], function(__WEBPACK_EXTERNAL_MODULE_426__) { return /******/ (
 	      item.species === 'versicolor' ? 1 : 0,
 	    ]));*/
 	    var testingData = tf.tensor2d(testSet.map(function (item) {
-	      return [item[0].qText, item[2].qText, item[3].qText];
+	      return [item[2].qNum, item[3].qNum];
 	    }));
-	    console.log("testingData: " + testingData);
+	    console.log(testingData);
+	    testingData.print();
 	    // build neural network
 	    var model = tf.sequential();
 	
 	    model.add(tf.layers.dense({
-	      inputShape: [4],
+	      inputShape: [2],
 	      activation: "sigmoid",
-	      units: 5
+	      units: 3
 	    }));
 	    model.add(tf.layers.dense({
-	      inputShape: [5],
+	      inputShape: [3],
 	      activation: "sigmoid",
 	      units: 3
 	    }));
@@ -77081,6 +77077,7 @@ define(["jquery"], function(__WEBPACK_EXTERNAL_MODULE_426__) { return /******/ (
 	      loss: "meanSquaredError",
 	      optimizer: tf.train.adam(.06)
 	    });
+	    console.log(model);
 	
 	    // train/fit network
 	    var startTime = Date.now();
