@@ -68,8 +68,9 @@
   },
   "dependencies": {
     "@tensorflow/tfjs": "^1.7.2",
-    "angular": "^1.6.1",
+    "angular": "^1.7.9",
     "jquery": "^3.1.1",
-    "redux": "^3.6.0"
+    "redux": "^4.0.5",
+    "train-test-split": "^1.0.0"
   }
 }

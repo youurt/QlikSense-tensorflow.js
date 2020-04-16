@@ -1,0 +1,4682 @@
+[
+    [
+      {
+        "qText": "Afghanistan",
+        "qNum": "NaN",
+        "qElemNumber": 161,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.9",
+        "qNum": 15.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "2.4",
+        "qNum": 2.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Albania",
+        "qNum": "NaN",
+        "qElemNumber": 88,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.1",
+        "qNum": 21.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.1",
+        "qNum": 21.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Algeria",
+        "qNum": "NaN",
+        "qElemNumber": 87,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "17.9",
+        "qNum": 17.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Angola",
+        "qNum": "NaN",
+        "qElemNumber": 141,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.7",
+        "qNum": 15.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "7.2",
+        "qNum": 7.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Antigua and Barbuda",
+        "qNum": "NaN",
+        "qElemNumber": 56,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.5",
+        "qNum": 21.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "25.8",
+        "qNum": 25.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Argentina",
+        "qNum": "NaN",
+        "qElemNumber": 45,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "21.4",
+        "qNum": 21.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "29.4",
+        "qNum": 29.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Armenia",
+        "qNum": "NaN",
+        "qElemNumber": 81,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "20",
+        "qNum": 20,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Australia",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "25.1",
+        "qNum": 25.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "25.1",
+        "qNum": 25.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Austria",
+        "qNum": "NaN",
+        "qElemNumber": 18,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.9",
+        "qNum": 23.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "18.3",
+        "qNum": 18.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Azerbaijan",
+        "qNum": "NaN",
+        "qElemNumber": 70,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "18.3",
+        "qNum": 18.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.7",
+        "qNum": 24.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bahamas",
+        "qNum": "NaN",
+        "qElemNumber": 47,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "22.3",
+        "qNum": 22.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "35",
+        "qNum": 35,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bahrain",
+        "qNum": "NaN",
+        "qElemNumber": 40,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.5",
+        "qNum": 19.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "32.6",
+        "qNum": 32.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bangladesh",
+        "qNum": "NaN",
+        "qElemNumber": 134,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.4",
+        "qNum": 18.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.1",
+        "qNum": 1.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Barbados",
+        "qNum": "NaN",
+        "qElemNumber": 55,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.5",
+        "qNum": 19.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "33.4",
+        "qNum": 33.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Belarus",
+        "qNum": "NaN",
+        "qElemNumber": 49,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "17.1",
+        "qNum": 17.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Belgium",
+        "qNum": "NaN",
+        "qElemNumber": 19,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.6",
+        "qNum": 23.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "19.1",
+        "qNum": 19.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Belize",
+        "qNum": "NaN",
+        "qElemNumber": 78,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.5",
+        "qNum": 21.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "34.9",
+        "qNum": 34.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Benin",
+        "qNum": "NaN",
+        "qElemNumber": 157,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.6",
+        "qNum": 15.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "6.5",
+        "qNum": 6.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bhutan",
+        "qNum": "NaN",
+        "qElemNumber": 128,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "19.5",
+        "qNum": 19.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.5",
+        "qNum": 5.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bolivia (Plurinational State of)",
+        "qNum": "NaN",
+        "qElemNumber": 105,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.6",
+        "qNum": 18.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "18.9",
+        "qNum": 18.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bosnia and Herzegovina",
+        "qNum": "NaN",
+        "qElemNumber": 80,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "20.2",
+        "qNum": 20.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.2",
+        "qNum": 24.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Botswana",
+        "qNum": "NaN",
+        "qElemNumber": 101,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16.4",
+        "qNum": 16.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "13.5",
+        "qNum": 13.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Brazil",
+        "qNum": "NaN",
+        "qElemNumber": 73,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.8",
+        "qNum": 21.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "19.5",
+        "qNum": 19.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Brunei Darussalam",
+        "qNum": "NaN",
+        "qElemNumber": 27,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "21.4",
+        "qNum": 21.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "7.9",
+        "qNum": 7.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Bulgaria",
+        "qNum": "NaN",
+        "qElemNumber": 54,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "18.8",
+        "qNum": 18.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.4",
+        "qNum": 21.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Burkina Faso",
+        "qNum": "NaN",
+        "qElemNumber": 173,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.1",
+        "qNum": 15.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "2.4",
+        "qNum": 2.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Burundi",
+        "qNum": "NaN",
+        "qElemNumber": 172,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16",
+        "qNum": 16,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "3.3",
+        "qNum": 3.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "C“te d'Ivoire",
+        "qNum": "NaN",
+        "qElemNumber": 163,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "13.9",
+        "qNum": 13.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "6.7",
+        "qNum": 6.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Cambodia",
+        "qNum": "NaN",
+        "qElemNumber": 129,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "23.8",
+        "qNum": 23.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "2.3",
+        "qNum": 2.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Cameroon",
+        "qNum": "NaN",
+        "qElemNumber": 144,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.4",
+        "qNum": 16.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "11.1",
+        "qNum": 11.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Canada",
+        "qNum": "NaN",
+        "qElemNumber": 7,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.4",
+        "qNum": 24.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.3",
+        "qNum": 24.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Cape Verde",
+        "qNum": "NaN",
+        "qElemNumber": 115,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "19.9",
+        "qNum": 19.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "11.5",
+        "qNum": 11.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Central African Republic",
+        "qNum": "NaN",
+        "qElemNumber": 177,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.9",
+        "qNum": 15.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "3.7",
+        "qNum": 3.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Chad",
+        "qNum": "NaN",
+        "qElemNumber": 176,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.6",
+        "qNum": 15.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "3.1",
+        "qNum": 3.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Chile",
+        "qNum": "NaN",
+        "qElemNumber": 37,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.6",
+        "qNum": 23.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "29.1",
+        "qNum": 29.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "China",
+        "qNum": "NaN",
+        "qElemNumber": 85,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.5",
+        "qNum": 19.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.6",
+        "qNum": 5.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Colombia",
+        "qNum": "NaN",
+        "qElemNumber": 91,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.3",
+        "qNum": 21.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "18.1",
+        "qNum": 18.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Comoros",
+        "qNum": "NaN",
+        "qElemNumber": 151,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.9",
+        "qNum": 15.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.4",
+        "qNum": 4.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Congo",
+        "qNum": "NaN",
+        "qElemNumber": 132,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.1",
+        "qNum": 17.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.3",
+        "qNum": 5.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Congo (Democratic Republic of the)",
+        "qNum": "NaN",
+        "qElemNumber": 178,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.2",
+        "qNum": 15.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.9",
+        "qNum": 1.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Costa Rica",
+        "qNum": "NaN",
+        "qElemNumber": 63,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "23.8",
+        "qNum": 23.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.6",
+        "qNum": 24.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Croatia",
+        "qNum": "NaN",
+        "qElemNumber": 43,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "20.6",
+        "qNum": 20.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.3",
+        "qNum": 21.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Cuba",
+        "qNum": "NaN",
+        "qElemNumber": 41,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "22.9",
+        "qNum": 22.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "20.5",
+        "qNum": 20.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Cyprus",
+        "qNum": "NaN",
+        "qElemNumber": 29,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "22",
+        "qNum": 22,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Czech Republic",
+        "qNum": "NaN",
+        "qElemNumber": 25,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "21.1",
+        "qNum": 21.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "28.7",
+        "qNum": 28.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Denmark",
+        "qNum": "NaN",
+        "qElemNumber": 9,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "22.4",
+        "qNum": 22.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.2",
+        "qNum": 16.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Djibouti",
+        "qNum": "NaN",
+        "qElemNumber": 162,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "10.4",
+        "qNum": 10.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Dominican Republic",
+        "qNum": "NaN",
+        "qElemNumber": 95,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.9",
+        "qNum": 21.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.9",
+        "qNum": 21.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Ecuador",
+        "qNum": "NaN",
+        "qElemNumber": 92,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "23.6",
+        "qNum": 23.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "22",
+        "qNum": 22,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Egypt",
+        "qNum": "NaN",
+        "qElemNumber": 102,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "34.6",
+        "qNum": 34.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "El Salvador",
+        "qNum": "NaN",
+        "qElemNumber": 107,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "22",
+        "qNum": 22,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "26.9",
+        "qNum": 26.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Equatorial Guinea",
+        "qNum": "NaN",
+        "qElemNumber": 136,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "15.9",
+        "qNum": 15.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "11.5",
+        "qNum": 11.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Eritrea",
+        "qNum": "NaN",
+        "qElemNumber": 174,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.1",
+        "qNum": 15.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.8",
+        "qNum": 1.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Estonia",
+        "qNum": "NaN",
+        "qElemNumber": 30,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "20.2",
+        "qNum": 20.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "18.9",
+        "qNum": 18.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Ethiopia",
+        "qNum": "NaN",
+        "qElemNumber": 165,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.8",
+        "qNum": 17.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.2",
+        "qNum": 1.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Fiji",
+        "qNum": "NaN",
+        "qElemNumber": 82,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "17",
+        "qNum": 17,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "31.9",
+        "qNum": 31.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Finland",
+        "qNum": "NaN",
+        "qElemNumber": 21,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.8",
+        "qNum": 23.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "19.9",
+        "qNum": 19.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "France",
+        "qNum": "NaN",
+        "qElemNumber": 17,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "25.1",
+        "qNum": 25.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "15.6",
+        "qNum": 15.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Gabon",
+        "qNum": "NaN",
+        "qElemNumber": 104,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.2",
+        "qNum": 18.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "15",
+        "qNum": 15,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Gambia",
+        "qNum": "NaN",
+        "qElemNumber": 164,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.2",
+        "qNum": 15.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "8.5",
+        "qNum": 8.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Georgia",
+        "qNum": "NaN",
+        "qElemNumber": 74,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.8",
+        "qNum": 19.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.2",
+        "qNum": 21.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Germany",
+        "qNum": "NaN",
+        "qElemNumber": 5,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.5",
+        "qNum": 23.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.3",
+        "qNum": 21.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Ghana",
+        "qNum": "NaN",
+        "qElemNumber": 130,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "15.5",
+        "qNum": 15.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "8",
+        "qNum": 8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Greece",
+        "qNum": "NaN",
+        "qElemNumber": 26,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.5",
+        "qNum": 23.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Grenada",
+        "qNum": "NaN",
+        "qElemNumber": 75,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "18.5",
+        "qNum": 18.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24",
+        "qNum": 24,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Guatemala",
+        "qNum": "NaN",
+        "qElemNumber": 117,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "21.5",
+        "qNum": 21.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "20.7",
+        "qNum": 20.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Guinea",
+        "qNum": "NaN",
+        "qElemNumber": 171,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "14.8",
+        "qNum": 14.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.7",
+        "qNum": 4.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Guinea-Bissau",
+        "qNum": "NaN",
+        "qElemNumber": 169,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "14.9",
+        "qNum": 14.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.4",
+        "qNum": 5.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Guyana",
+        "qNum": "NaN",
+        "qElemNumber": 113,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16.6",
+        "qNum": 16.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.9",
+        "qNum": 16.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Haiti",
+        "qNum": "NaN",
+        "qElemNumber": 160,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.2",
+        "qNum": 17.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "8.4",
+        "qNum": 8.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Honduras",
+        "qNum": "NaN",
+        "qElemNumber": 121,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "22.1",
+        "qNum": 22.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "19.8",
+        "qNum": 19.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Hungary",
+        "qNum": "NaN",
+        "qElemNumber": 39,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.9",
+        "qNum": 19.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.8",
+        "qNum": 24.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Iceland",
+        "qNum": "NaN",
+        "qElemNumber": 12,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.3",
+        "qNum": 24.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.9",
+        "qNum": 21.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "India",
+        "qNum": "NaN",
+        "qElemNumber": 127,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17",
+        "qNum": 17,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.9",
+        "qNum": 1.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Indonesia",
+        "qNum": "NaN",
+        "qElemNumber": 100,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.8",
+        "qNum": 17.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.7",
+        "qNum": 4.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Iran (Islamic Republic of)",
+        "qNum": "NaN",
+        "qElemNumber": 69,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.9",
+        "qNum": 19.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.6",
+        "qNum": 21.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Iraq",
+        "qNum": "NaN",
+        "qElemNumber": 112,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "29.4",
+        "qNum": 29.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Ireland",
+        "qNum": "NaN",
+        "qElemNumber": 10,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.5",
+        "qNum": 24.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Israel",
+        "qNum": "NaN",
+        "qElemNumber": 16,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.3",
+        "qNum": 24.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "25.5",
+        "qNum": 25.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Italy",
+        "qNum": "NaN",
+        "qElemNumber": 23,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.7",
+        "qNum": 24.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.2",
+        "qNum": 17.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Jamaica",
+        "qNum": "NaN",
+        "qElemNumber": 89,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.3",
+        "qNum": 21.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.6",
+        "qNum": 24.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Japan",
+        "qNum": "NaN",
+        "qElemNumber": 15,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "26.1",
+        "qNum": 26.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.5",
+        "qNum": 4.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Jordan",
+        "qNum": "NaN",
+        "qElemNumber": 71,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19",
+        "qNum": 19,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "34.3",
+        "qNum": 34.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Kazakhstan",
+        "qNum": "NaN",
+        "qElemNumber": 65,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "16.5",
+        "qNum": 16.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.4",
+        "qNum": 24.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Kenya",
+        "qNum": "NaN",
+        "qElemNumber": 139,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.8",
+        "qNum": 17.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.7",
+        "qNum": 4.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Kiribati",
+        "qNum": "NaN",
+        "qElemNumber": 125,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.4",
+        "qNum": 17.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "45.8",
+        "qNum": 45.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Korea (Republic of)",
+        "qNum": "NaN",
+        "qElemNumber": 14,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24",
+        "qNum": 24,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "7.3",
+        "qNum": 7.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Kuwait",
+        "qNum": "NaN",
+        "qElemNumber": 42,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "17.6",
+        "qNum": 17.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "42.8",
+        "qNum": 42.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Kyrgyzstan",
+        "qNum": "NaN",
+        "qElemNumber": 118,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16.8",
+        "qNum": 16.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.2",
+        "qNum": 17.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Lao People's Democratic Republic",
+        "qNum": "NaN",
+        "qElemNumber": 131,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.1",
+        "qNum": 17.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "3",
+        "qNum": 3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Latvia",
+        "qNum": "NaN",
+        "qElemNumber": 44,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.1",
+        "qNum": 19.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "22",
+        "qNum": 22,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Lebanon",
+        "qNum": "NaN",
+        "qElemNumber": 60,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "22.7",
+        "qNum": 22.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "28.2",
+        "qNum": 28.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Lesotho",
+        "qNum": "NaN",
+        "qElemNumber": 154,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.5",
+        "qNum": 15.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.9",
+        "qNum": 16.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Liberia",
+        "qNum": "NaN",
+        "qElemNumber": 167,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.4",
+        "qNum": 15.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.5",
+        "qNum": 5.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Libya",
+        "qNum": "NaN",
+        "qElemNumber": 51,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.7",
+        "qNum": 19.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "30.8",
+        "qNum": 30.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Lithuania",
+        "qNum": "NaN",
+        "qElemNumber": 32,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.1",
+        "qNum": 19.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.7",
+        "qNum": 24.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Luxembourg",
+        "qNum": "NaN",
+        "qElemNumber": 20,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Madagascar",
+        "qNum": "NaN",
+        "qElemNumber": 147,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.9",
+        "qNum": 16.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.7",
+        "qNum": 1.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Malawi",
+        "qNum": "NaN",
+        "qElemNumber": 166,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17",
+        "qNum": 17,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.5",
+        "qNum": 4.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Malaysia",
+        "qNum": "NaN",
+        "qElemNumber": 57,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19",
+        "qNum": 19,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "14.1",
+        "qNum": 14.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Maldives",
+        "qNum": "NaN",
+        "qElemNumber": 96,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "21",
+        "qNum": 21,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.1",
+        "qNum": 16.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Mali",
+        "qNum": "NaN",
+        "qElemNumber": 168,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.4",
+        "qNum": 15.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.8",
+        "qNum": 4.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Malta",
+        "qNum": "NaN",
+        "qElemNumber": 35,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "22.3",
+        "qNum": 22.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "26.6",
+        "qNum": 26.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Mauritania",
+        "qNum": "NaN",
+        "qElemNumber": 153,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.4",
+        "qNum": 16.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "14",
+        "qNum": 14,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Mauritius",
+        "qNum": "NaN",
+        "qElemNumber": 58,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.3",
+        "qNum": 19.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "18.2",
+        "qNum": 18.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Mexico",
+        "qNum": "NaN",
+        "qElemNumber": 66,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "22.7",
+        "qNum": 22.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "32.8",
+        "qNum": 32.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Micronesia (Federated States of)",
+        "qNum": "NaN",
+        "qElemNumber": 116,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.3",
+        "qNum": 17.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "42",
+        "qNum": 42,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Moldova (Republic of)",
+        "qNum": "NaN",
+        "qElemNumber": 106,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16.2",
+        "qNum": 16.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "20.4",
+        "qNum": 20.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Mongolia",
+        "qNum": "NaN",
+        "qElemNumber": 97,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16.3",
+        "qNum": 16.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.4",
+        "qNum": 16.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Montenegro",
+        "qNum": "NaN",
+        "qElemNumber": 48,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.2",
+        "qNum": 19.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.8",
+        "qNum": 21.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Morocco",
+        "qNum": "NaN",
+        "qElemNumber": 122,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.9",
+        "qNum": 17.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.3",
+        "qNum": 17.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Mozambique",
+        "qNum": "NaN",
+        "qElemNumber": 170,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.8",
+        "qNum": 16.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.4",
+        "qNum": 5.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Myanmar",
+        "qNum": "NaN",
+        "qElemNumber": 142,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.6",
+        "qNum": 16.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.1",
+        "qNum": 4.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Namibia",
+        "qNum": "NaN",
+        "qElemNumber": 119,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17.3",
+        "qNum": 17.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "10.9",
+        "qNum": 10.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Nepal",
+        "qNum": "NaN",
+        "qElemNumber": 137,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.1",
+        "qNum": 17.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.5",
+        "qNum": 1.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Netherlands",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.5",
+        "qNum": 23.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.2",
+        "qNum": 16.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "New Zealand",
+        "qNum": "NaN",
+        "qElemNumber": 6,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.1",
+        "qNum": 24.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "27",
+        "qNum": 27,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Nicaragua",
+        "qNum": "NaN",
+        "qElemNumber": 124,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "22.2",
+        "qNum": 22.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.2",
+        "qNum": 24.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Niger",
+        "qNum": "NaN",
+        "qElemNumber": 179,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "15.5",
+        "qNum": 15.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "2.5",
+        "qNum": 2.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Nigeria",
+        "qNum": "NaN",
+        "qElemNumber": 145,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "13.7",
+        "qNum": 13.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "7.1",
+        "qNum": 7.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Norway",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24",
+        "qNum": 24,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "19.8",
+        "qNum": 19.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Oman",
+        "qNum": "NaN",
+        "qElemNumber": 52,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "20.5",
+        "qNum": 20.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "22",
+        "qNum": 22,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Pakistan",
+        "qNum": "NaN",
+        "qElemNumber": 138,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.4",
+        "qNum": 17.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.9",
+        "qNum": 5.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Panama",
+        "qNum": "NaN",
+        "qElemNumber": 61,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "23.9",
+        "qNum": 23.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "25.8",
+        "qNum": 25.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Papua New Guinea",
+        "qNum": "NaN",
+        "qElemNumber": 149,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "14.9",
+        "qNum": 14.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "15.9",
+        "qNum": 15.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Paraguay",
+        "qNum": "NaN",
+        "qElemNumber": 103,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "20.8",
+        "qNum": 20.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "19.2",
+        "qNum": 19.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Peru",
+        "qNum": "NaN",
+        "qElemNumber": 76,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.5",
+        "qNum": 21.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.5",
+        "qNum": 16.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Philippines",
+        "qNum": "NaN",
+        "qElemNumber": 109,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17",
+        "qNum": 17,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "6.4",
+        "qNum": 6.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Poland",
+        "qNum": "NaN",
+        "qElemNumber": 33,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "21.1",
+        "qNum": 21.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.2",
+        "qNum": 23.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Portugal",
+        "qNum": "NaN",
+        "qElemNumber": 38,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.2",
+        "qNum": 23.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "21.6",
+        "qNum": 21.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Qatar",
+        "qNum": "NaN",
+        "qElemNumber": 28,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "21.2",
+        "qNum": 21.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "33.1",
+        "qNum": 33.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Romania",
+        "qNum": "NaN",
+        "qElemNumber": 50,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.4",
+        "qNum": 19.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.7",
+        "qNum": 17.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Russian Federation",
+        "qNum": "NaN",
+        "qElemNumber": 53,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.9",
+        "qNum": 24.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Rwanda",
+        "qNum": "NaN",
+        "qElemNumber": 143,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.8",
+        "qNum": 17.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.3",
+        "qNum": 4.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Saint Lucia",
+        "qNum": "NaN",
+        "qElemNumber": 90,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21",
+        "qNum": 21,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "22.3",
+        "qNum": 22.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Saint Vincent and the Grenadines",
+        "qNum": "NaN",
+        "qElemNumber": 86,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.7",
+        "qNum": 19.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "25.1",
+        "qNum": 25.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Samoa",
+        "qNum": "NaN",
+        "qElemNumber": 99,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.9",
+        "qNum": 18.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "55.5",
+        "qNum": 55.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Sao Tome and Principe",
+        "qNum": "NaN",
+        "qElemNumber": 135,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.2",
+        "qNum": 18.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "11.3",
+        "qNum": 11.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Saudi Arabia",
+        "qNum": "NaN",
+        "qElemNumber": 31,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.2",
+        "qNum": 19.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "35.2",
+        "qNum": 35.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Senegal",
+        "qNum": "NaN",
+        "qElemNumber": 155,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.2",
+        "qNum": 16.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "8",
+        "qNum": 8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Serbia",
+        "qNum": "NaN",
+        "qElemNumber": 72,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "18.7",
+        "qNum": 18.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23",
+        "qNum": 23,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Seychelles",
+        "qNum": "NaN",
+        "qElemNumber": 67,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.4",
+        "qNum": 19.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.6",
+        "qNum": 24.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Sierra Leone",
+        "qNum": "NaN",
+        "qElemNumber": 175,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "12.5",
+        "qNum": 12.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "7",
+        "qNum": 7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Singapore",
+        "qNum": "NaN",
+        "qElemNumber": 8,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.5",
+        "qNum": 24.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "6.4",
+        "qNum": 6.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Slovakia",
+        "qNum": "NaN",
+        "qElemNumber": 34,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.8",
+        "qNum": 19.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.6",
+        "qNum": 24.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Slovenia",
+        "qNum": "NaN",
+        "qElemNumber": 22,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "22.8",
+        "qNum": 22.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "27",
+        "qNum": 27,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Solomon Islands",
+        "qNum": "NaN",
+        "qElemNumber": 150,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.9",
+        "qNum": 16.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "32.1",
+        "qNum": 32.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "South Africa",
+        "qNum": "NaN",
+        "qElemNumber": 110,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16",
+        "qNum": 16,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "33.5",
+        "qNum": 33.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Spain",
+        "qNum": "NaN",
+        "qElemNumber": 24,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.8",
+        "qNum": 24.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.1",
+        "qNum": 24.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Sri Lanka",
+        "qNum": "NaN",
+        "qElemNumber": 68,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.6",
+        "qNum": 19.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5",
+        "qNum": 5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Sudan",
+        "qNum": "NaN",
+        "qElemNumber": 158,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.4",
+        "qNum": 17.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "6.6",
+        "qNum": 6.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Suriname",
+        "qNum": "NaN",
+        "qElemNumber": 93,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "18.5",
+        "qNum": 18.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "25.8",
+        "qNum": 25.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Swaziland",
+        "qNum": "NaN",
+        "qElemNumber": 140,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.3",
+        "qNum": 16.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.4",
+        "qNum": 23.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Sweden",
+        "qNum": "NaN",
+        "qElemNumber": 11,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "24.1",
+        "qNum": 24.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.6",
+        "qNum": 16.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Switzerland",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "25",
+        "qNum": 25,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "14.9",
+        "qNum": 14.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Syrian Arab Republic",
+        "qNum": "NaN",
+        "qElemNumber": 111,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "19.9",
+        "qNum": 19.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "31.6",
+        "qNum": 31.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Tajikistan",
+        "qNum": "NaN",
+        "qElemNumber": 126,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.2",
+        "qNum": 18.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "9.9",
+        "qNum": 9.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Tanzania (United Republic of)",
+        "qNum": "NaN",
+        "qElemNumber": 152,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.9",
+        "qNum": 17.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "5.4",
+        "qNum": 5.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Thailand",
+        "qNum": "NaN",
+        "qElemNumber": 83,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.4",
+        "qNum": 21.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "8.5",
+        "qNum": 8.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "The former Yugoslav Republic of Macedonia",
+        "qNum": "NaN",
+        "qElemNumber": 79,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "19.1",
+        "qNum": 19.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "20.3",
+        "qNum": 20.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Timor-Leste",
+        "qNum": "NaN",
+        "qElemNumber": 120,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "16.9",
+        "qNum": 16.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "2.9",
+        "qNum": 2.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Togo",
+        "qNum": "NaN",
+        "qElemNumber": 159,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "14.5",
+        "qNum": 14.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.6",
+        "qNum": 4.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Tonga",
+        "qNum": "NaN",
+        "qElemNumber": 94,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "18.6",
+        "qNum": 18.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "59.6",
+        "qNum": 59.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Trinidad and Tobago",
+        "qNum": "NaN",
+        "qElemNumber": 59,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "17.8",
+        "qNum": 17.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "30",
+        "qNum": 30,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Tunisia",
+        "qNum": "NaN",
+        "qElemNumber": 84,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "20.2",
+        "qNum": 20.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.8",
+        "qNum": 23.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Turkey",
+        "qNum": "NaN",
+        "qElemNumber": 64,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "20.9",
+        "qNum": 20.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "29.3",
+        "qNum": 29.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Turkmenistan",
+        "qNum": "NaN",
+        "qElemNumber": 98,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17",
+        "qNum": 17,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "14.3",
+        "qNum": 14.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Uganda",
+        "qNum": "NaN",
+        "qElemNumber": 156,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "17.5",
+        "qNum": 17.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.6",
+        "qNum": 4.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Ukraine",
+        "qNum": "NaN",
+        "qElemNumber": 77,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "17.4",
+        "qNum": 17.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "20.1",
+        "qNum": 20.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "United Arab Emirates",
+        "qNum": "NaN",
+        "qElemNumber": 36,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "19.8",
+        "qNum": 19.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "33.7",
+        "qNum": 33.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "United Kingdom",
+        "qNum": "NaN",
+        "qElemNumber": 13,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.5",
+        "qNum": 23.5,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "24.9",
+        "qNum": 24.9,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "United States",
+        "qNum": "NaN",
+        "qElemNumber": 4,
+        "qState": "O"
+      },
+      {
+        "qText": "Very High",
+        "qNum": "NaN",
+        "qElemNumber": 0,
+        "qState": "O"
+      },
+      {
+        "qText": "23.2",
+        "qNum": 23.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "31.8",
+        "qNum": 31.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Uruguay",
+        "qNum": "NaN",
+        "qElemNumber": 46,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.8",
+        "qNum": 21.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "23.6",
+        "qNum": 23.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Uzbekistan",
+        "qNum": "NaN",
+        "qElemNumber": 108,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18.3",
+        "qNum": 18.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "17.3",
+        "qNum": 17.3,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Vanuatu",
+        "qNum": "NaN",
+        "qElemNumber": 123,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "18",
+        "qNum": 18,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "29.8",
+        "qNum": 29.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Venezuela (Bolivarian Republic of)",
+        "qNum": "NaN",
+        "qElemNumber": 62,
+        "qState": "O"
+      },
+      {
+        "qText": "High",
+        "qNum": "NaN",
+        "qElemNumber": 1,
+        "qState": "O"
+      },
+      {
+        "qText": "21.1",
+        "qNum": 21.1,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "30.8",
+        "qNum": 30.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Viet Nam",
+        "qNum": "NaN",
+        "qElemNumber": 114,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "22.4",
+        "qNum": 22.4,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "1.6",
+        "qNum": 1.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Yemen",
+        "qNum": "NaN",
+        "qElemNumber": 146,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "16.2",
+        "qNum": 16.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "16.7",
+        "qNum": 16.7,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Zambia",
+        "qNum": "NaN",
+        "qElemNumber": 133,
+        "qState": "O"
+      },
+      {
+        "qText": "Medium",
+        "qNum": "NaN",
+        "qElemNumber": 2,
+        "qState": "O"
+      },
+      {
+        "qText": "17",
+        "qNum": 17,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "4.2",
+        "qNum": 4.2,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ],
+    [
+      {
+        "qText": "Zimbabwe",
+        "qNum": "NaN",
+        "qElemNumber": 148,
+        "qState": "O"
+      },
+      {
+        "qText": "Low",
+        "qNum": "NaN",
+        "qElemNumber": 3,
+        "qState": "O"
+      },
+      {
+        "qText": "18.8",
+        "qNum": 18.8,
+        "qElemNumber": 0,
+        "qState": "L"
+      },
+      {
+        "qText": "8.6",
+        "qNum": 8.6,
+        "qElemNumber": 0,
+        "qState": "L"
+      }
+    ]
+  ]
